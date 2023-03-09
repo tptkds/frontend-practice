@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_open {
+  background-color: lightskyblue;
+  text-align: center;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+}
+
+.modal_container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  box-shadow: 3px 5px 15px rgb(0 0 0 / 20%);
+}
+
+.modal_close {
+  background-color: pink;
+  border: none;
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+}
