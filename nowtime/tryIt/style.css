@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time {
+  width: 80px;
+  text-align: center;
+  letter-spacing: 5px;
+}
