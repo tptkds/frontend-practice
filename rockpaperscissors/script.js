@@ -35,7 +35,6 @@ function game(user, computer) {
 }
 
 function play(event) {
-  console.log("click");
   const user = event.target.innerText;
 
   const randomIndex = Math.floor(Math.random() * 3);
